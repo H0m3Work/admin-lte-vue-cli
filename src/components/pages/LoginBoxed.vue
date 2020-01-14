@@ -55,12 +55,14 @@
   </div>
 </template>
 
-<style scoped>
-  @import './../../assets/dist/css/adminlte.min.css';
+<style lang="scss">
+@import './../../assets/build/scss/AdminLTE';
+@import './../../assets/build/scss/colors';
+@import './../../assets/build/scss/pages/login_and_register';
+@import './../../assets/build/scss/layout'
+
 </style>
-
 <script>
-
 export default {
   name: 'LoginBoxed',
   data() {

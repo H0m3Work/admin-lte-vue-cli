@@ -1,7 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
 import * as moment from 'moment';
-import router from './router'
+import router from './router';
+import 'popper.js';
+import 'bootstrap';
+
 
 import Default from './components/wrappers/BaseLayout.vue';
 import Pages from './components/wrappers/PagesLayout.vue';

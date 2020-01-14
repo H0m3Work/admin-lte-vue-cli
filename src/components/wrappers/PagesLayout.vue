@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="login-page" style="min-height: 512.391px;">
     <slot></slot>
   </div>
 </template>
